@@ -16,3 +16,9 @@ int main(){
     
     
 }
+
+OUTPUT:
+Size of array is: 4
+Element at 2nd index is: 3
+First element is: 1
+Last element is: 4
