@@ -36,3 +36,18 @@ int main(){
     cout << "Capacity is: " << v.capacity() << endl;
     cout << "Size is: " << v.size() << endl;
 }
+
+OUTPUT:
+Before POP:
+1 2 3 4 5 
+Front is: 1
+Back is: 5
+Capacity is: 8
+Size is: 5
+
+After POP:
+1 2 
+Front is: 1
+Back is: 2
+Capacity is: 8
+Size is: 2
