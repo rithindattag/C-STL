@@ -5,13 +5,21 @@ using namespace std;
 int main(){
     vector<int> v;              // Vector declaration
     
-    cout << "Before POP:" << endl;
+    
     v.push_back(1);             // adds element to vector
     v.push_back(2);
     v.push_back(3);
     v.push_back(4);
     v.push_back(5);
+
     
+    for (auto it = v.begin();       // accessing elements of vector using iterator
+         it != v.end(); ++it)
+        cout << *it << " ";
+        cout << endl;
+        
+        
+    cout << "Before POP:" << endl;
     for(int i:v){
         cout << i << " ";
     }
@@ -38,6 +46,7 @@ int main(){
 }
 
 OUTPUT:
+1 2 3 4 5 
 Before POP:
 1 2 3 4 5 
 Front is: 1
